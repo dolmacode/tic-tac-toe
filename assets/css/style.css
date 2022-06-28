@@ -1,0 +1,104 @@
+header {
+    padding: 2em;
+}
+
+header h1 {
+    font-family: 'Yandex Medium';
+    text-align: center;
+    color: #333;
+}
+
+body {
+    background: #e6e0c8;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width:600px;
+    margin:10vh auto;
+}
+
+.container {
+    background: #cbc3a1;
+    box-shadow:0 0 2em rgba(58, 41, 21, 0.47);
+    border-radius:0.6em;
+    display: grid;
+    height:560px;
+    width:560px;
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 180px 180px 180px;
+    grid-gap: 10px;
+}
+
+.field-item {
+    background:#e6e0c8;
+    box-shadow:0 0 0.3em rgba(58, 41, 21, 0.47);
+    border-radius:0.6em;
+    width:100%;
+    height:100%;
+}
+
+.field-item:hover {
+    opacity:0.85;
+}
+
+.field-item:active {
+    opacity:0.6;
+}
+
+.scoreboard {
+    position:fixed;
+    bottom:1em;
+    font-family:'Yandex Regular';
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    font-family: "Yandex Regular";
+}
+
+.auth-form input {
+    padding:0.6em 3em;
+    border:1px solid gainsboro;
+    margin:1em 0;
+    border-radius:0.2em;
+}
+
+.auth-submit {
+    background:#333;
+    color:#fff;
+    transition:0.15s;
+    padding:0.6em 3em;
+    border:none;
+    border-radius:0.2em;
+}
+
+.auth-submit:hover {
+    background:#cbc3a1;
+    color:#333;
+}
+
+.scoreboard span {
+    margin:0 1em;
+}
+
+.scoreboard span a {
+    color:#333;
+}
+
+.scoreboard span a:hover {
+    text-decoration: none;
+}
+
+.fi-blue {
+    background:dodgerblue;
+    border:none;
+}
+
+.fi-red {
+    background:red;
+    border:none;
+}

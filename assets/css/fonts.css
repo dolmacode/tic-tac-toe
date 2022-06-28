@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Yandex Regular";
+    src: url("../fonts/YandexSansText-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Yandex Medium";
+    src: url("../fonts/YandexSansText-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Yandex Bold";
+    src: url("../fonts/YandexSansText-Bold.ttf");
+}
